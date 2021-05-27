@@ -2,4 +2,5 @@
 
 
 ### Tech used
-* Flask
+* Java
+* JavaSpring
