@@ -1,6 +1,3 @@
 # Personal Web API
 
-
-### Tech used
-* Java
-* JavaSpring
+Made in Python
