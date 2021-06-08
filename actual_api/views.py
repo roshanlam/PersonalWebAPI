@@ -12,7 +12,7 @@ def getProjectInfos(request):
     with urllib.request.urlopen("https://api.github.com/users/roshanlam/repos?page={page_num") as url:
         data = json.loads(url.read())
         # keywords = ['name', 'git_url', 'language']
-        keywords = ['name']
+        keywords = ['name', 'git_url']
         data = [i[k] for i in data for k in keywords]
         print(data)
         try:
